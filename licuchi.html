@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1e7ee98343.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="estilosyefectos.css">
+	<title>licuchis</title>
+</head>
+<body>
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Licuchi</h1>
+				<img src="logol.jpg" width="80" height="100">
+
+				<p>Pagina de estilo</p>
+			</div>
+			
+<nav class="menu1">
+	<center>
+	<ul>
+	<li><a href="inicio.html">Inicio</a></li>
+	<li><a href="">Productos</a></li>
+	<li><a href="nosotros.html">Nosotros</a></li>
+	
+	<li><a href="clientes.html">conocenos</a></li>
+	<li><a href="contactos.html">contactos</a></li>
+	</ul>
+	</center>
+</nav>
+<br><br/>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Mujer</a>
+				<a href="#">Hombre</a>
+				<a href="#">Tazas</a>
+			</div>
+		</header>
+		<section class="grid" id="grid">
+			<div class="item" 
+			data-categoria="hombre" 
+			data-etiquetas="hombres calaveras craneos"
+			data-descripcion="1.-100$"
+			>
+				<div class="item-contenido">
+					<img src="pr-1.jpg" alt="">
+				</div>
+			</div>
+			<div class="item"
+			data-categoria="mujer" 
+			data-etiquetas="mujeres diosas "
+			data-descripcion="2.-110$"
+			>
+				<div class="item-contenido">
+					<img src="pr-2.jpg" alt="">
+				</div>
+			</div>
+			<div class="item"
+			data-categoria="tazas" 
+			data-etiquetas="tazas amor"
+			data-descripcion="1.-50$"
+			>
+				<div class="item-contenido">
+					<img src="pr-3.jpg" alt="">
+				</div>
+			</div>
+		</section>
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+			<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="pr-1.jpg" alt="">
+			</div>
+			<p class="descripcion">1.-100</p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com/Tonylirac" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com/tonylirac" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio de <a href="#">Tony Lira</a> - <a href="https://www.falconmasters.com">Licuchi</a></p>
+			</div>
+		</footer>
+	</div>
+
+<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
